@@ -1,0 +1,63 @@
+html {
+	width: 100%;
+	height: 100vh;
+}
+
+body {
+	background: #fafafa;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+.col-centered {
+	margin-top: 6vh;
+	background: white;
+	padding: 10px 40px;
+
+	-webkit-box-shadow: 0px 0px 0.1px 0px rgba(46,74,117,0.7);
+	-moz-box-shadow: 0px 0px 0.1px 0px rgba(46,74,117,0.7);
+	box-shadow: 0px 0px 0.1px 0px rgba(46,74,117,0.7);
+}
+
+.col-centered .logo {
+	margin-left: 20%;
+	width: 60%;
+	height: 50%;
+	margin-bottom: 2.5vh;
+	text-align: center;
+}
+
+.col-centered .form-control {
+	font-size: small;
+}
+
+.col-centered button {
+	background-color: #3498db;
+	color: white;
+	width: 100%;
+}
+
+.trick-en {
+	padding-left: 8px;
+	border-left: 5px solid #2ecc71;
+}
+
+.trick-ar {
+	margin-top: 3vh;
+	font-size: 1.1em;
+	padding-right: 8px;
+	border-right: 5px solid #2ecc71;
+}
+
+/*horizontal rule */
+.style-hr {
+	width: 100%;
+	height: 1.5vh;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.style-hr span {
+	padding: 5px 25px;
+	background: white;
+}
